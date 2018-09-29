@@ -143,7 +143,7 @@ if (command == "embed") {
 
          client.on('message', message => {
             if (message.content === 'Welcome To  Server Wind#') {
-              message.channel.send('```#Welcome To  Server Wind..💛```');
+              message.channel.send('**__WELCOME TO WIND 🌹__**');
 
                
 

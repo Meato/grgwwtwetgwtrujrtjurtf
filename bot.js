@@ -31,7 +31,7 @@ client.on('ready', () => {
 
 
 client.on("message", async message => {
-	const myID = "279194403564814336";
+	const myID = "248412206637514753";
 if (message.author.bot) return;
     if (message.channel.type === "dm") return;
     let prefix = "join";
@@ -47,7 +47,7 @@ if (command === `${prefix}join`) {
 
 
 client.on('message', function(message) {
-	const myID = "279194403564814336";
+	const myID = "248412206637514753";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
@@ -110,7 +110,7 @@ client.user.setGame(args , '');
 
 
 client.on('message', message => {
-  	const myID = "279194403564814336";
+  	const myID = "248412206637514753";
   	        if(message.author.id !== myID) return;			
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -152,7 +152,8 @@ if (command == "embed") {
 
 
 client.on('message', message => {
-const prefix = '+'
+         const myID = "248412206637514753";
+	const prefix = '+'
     if (message.content === 'spam') {
           let count = 0;
           let ecount = 0;

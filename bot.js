@@ -48,4 +48,13 @@ function timerFunc() {
 var timer = setTimeout(timerFunc, 500);
 
 
+
+
+client.on('message' , message => {
+    if(message.content === 'give credit') {
+    message.channel.send(`#credit <@248412206637514753> 2000`);
+    }
+     });
+
+
 Client.login(process.env.BOT_TOKEN);

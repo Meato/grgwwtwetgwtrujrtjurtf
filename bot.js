@@ -28,8 +28,6 @@ Client.on('ready', () => {
 
 
 
-var ServerID = "510045258139303946"; 
-var ChannelID = "510195806079287316";
 
 var ServerID = "510045258139303946"; 
 var ChannelID = "510195806079287316";

@@ -1,5 +1,5 @@
 var ServerID = "510045258139303946"; 
-var ChannelID = "510192239633498114";
+var ChannelID = "510195806079287316";
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
